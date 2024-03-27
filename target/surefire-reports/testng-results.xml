@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-23T06:16:23 IST" name="Opencart App Test Regression Suite" finished-at="2024-03-23T06:16:49 IST" duration-ms="26391">
+    <groups>
+    </groups>
+    <test started-at="2024-03-23T06:16:23 IST" name="Login Page Test" finished-at="2024-03-23T06:16:43 IST" duration-ms="19810">
+      <class name="org.qa.opencart.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.qa.opencart.tests.LoginTest@53ce1329]" started-at="2024-03-23T06:16:23 IST" name="setup" finished-at="2024-03-23T06:16:30 IST" duration-ms="6566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:org.qa.opencart.tests.LoginTest@53ce1329]" started-at="2024-03-23T06:16:30 IST" name="loginPageTitleTest" finished-at="2024-03-23T06:16:30 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:1, instance:org.qa.opencart.tests.LoginTest@53ce1329]" started-at="2024-03-23T06:16:30 IST" name="loginPageUrlTest" finished-at="2024-03-23T06:16:30 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="getloginTest(java.lang.String,java.lang.String)[pri:2, instance:org.qa.opencart.tests.LoginTest@53ce1329]" started-at="2024-03-23T06:16:30 IST" name="getloginTest" data-provider="getLoginData" finished-at="2024-03-23T06:16:36 IST" duration-ms="6354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FebBatch2024@opencart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getloginTest -->
+        <test-method signature="getloginTest(java.lang.String,java.lang.String)[pri:2, instance:org.qa.opencart.tests.LoginTest@53ce1329]" started-at="2024-03-23T06:16:36 IST" name="getloginTest" data-provider="getLoginData" finished-at="2024-03-23T06:16:42 IST" duration-ms="6221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FebBatch2024@opencart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.qa.opencart.tests.LoginTest@53ce1329]" started-at="2024-03-23T06:16:42 IST" name="tearDown" finished-at="2024-03-23T06:16:43 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.qa.opencart.tests.LoginTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2024-03-23T06:16:43 IST" name="Account Page Test" finished-at="2024-03-23T06:16:49 IST" duration-ms="6401">
+      <class name="org.qa.opencart.tests.AccountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.qa.opencart.tests.AccountPageTest@18df8434]" started-at="2024-03-23T06:16:43 IST" name="setup" finished-at="2024-03-23T06:16:48 IST" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accPageSetup()[pri:0, instance:org.qa.opencart.tests.AccountPageTest@18df8434]" started-at="2024-03-23T06:16:48 IST" name="accPageSetup" finished-at="2024-03-23T06:16:49 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSetup -->
+        <test-method signature="accounPageTitleTest()[pri:0, instance:org.qa.opencart.tests.AccountPageTest@18df8434]" started-at="2024-03-23T06:16:49 IST" name="accounPageTitleTest" finished-at="2024-03-23T06:16:49 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accounPageTitleTest -->
+        <test-method signature="accounPageUrlTest()[pri:0, instance:org.qa.opencart.tests.AccountPageTest@18df8434]" started-at="2024-03-23T06:16:49 IST" name="accounPageUrlTest" finished-at="2024-03-23T06:16:49 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accounPageUrlTest -->
+        <test-method signature="logoutbtnExistanceTest()[pri:0, instance:org.qa.opencart.tests.AccountPageTest@18df8434]" started-at="2024-03-23T06:16:49 IST" name="logoutbtnExistanceTest" finished-at="2024-03-23T06:16:49 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutbtnExistanceTest -->
+        <test-method signature="myAccountHeaderExistanceTest()[pri:0, instance:org.qa.opencart.tests.AccountPageTest@18df8434]" started-at="2024-03-23T06:16:49 IST" name="myAccountHeaderExistanceTest" finished-at="2024-03-23T06:16:49 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccountHeaderExistanceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.qa.opencart.tests.AccountPageTest@18df8434]" started-at="2024-03-23T06:16:49 IST" name="tearDown" finished-at="2024-03-23T06:16:49 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.qa.opencart.tests.AccountPageTest -->
+    </test> <!-- Account Page Test -->
+  </suite> <!-- Opencart App Test Regression Suite -->
+</testng-results>

@@ -1,0 +1,6 @@
+org\qa\opencart\factory\OptionsManager.class
+org\qa\opencart\pages\LoginPage.class
+org\qa\opencart\pages\AccountPage.class
+org\qa\opencart\factory\DriverFactory.class
+org\qa\opencart\exception\FrameworkException.class
+org\qa\opencart\constants\AppConstants.class

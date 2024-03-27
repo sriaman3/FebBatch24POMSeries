@@ -1,0 +1,3 @@
+org\qa\opencart\tests\AccountPageTest.class
+org\qa\opencart\base\BaseTest.class
+org\qa\opencart\tests\LoginTest.class
