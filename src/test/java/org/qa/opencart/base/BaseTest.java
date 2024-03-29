@@ -8,6 +8,7 @@ import org.qa.opencart.pages.AccountPage;
 import org.qa.opencart.pages.LoginPage;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 public class BaseTest {
 	
@@ -17,11 +18,15 @@ public class BaseTest {
 	protected AccountPage accPage;
 	protected Properties prop;
 	
+	@Parameters({"browser"})
 	@BeforeTest
-	public void setup() {
+	public void setup(String browserName) {
 		
 		df = new DriverFactory();
 		prop = df.init_prop();
+		if(browserName!=null) {
+			prop.setProperty("browser", browserName);
+		}
 		driver = df.init_driver(prop);
 		lp = new LoginPage(driver);
 	}

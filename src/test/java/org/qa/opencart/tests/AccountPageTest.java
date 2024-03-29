@@ -21,7 +21,7 @@ public class AccountPageTest extends BaseTest{
 	@Test
 	public void accounPageUrlTest() {
 		String url = accPage.getAccountPageUrl();
-		Assert.assertTrue(url.contains("account/account"));
+		Assert.assertTrue(url.contains("account/accounts"));
 	}
 
 	@Test

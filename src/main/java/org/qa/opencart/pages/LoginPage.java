@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
 	
-	private WebDriver driver;
+	private WebDriver driver;  
 	
 	private By email = By.id("input-email");
 	private By password = By.id("input-password");
@@ -14,6 +14,7 @@ public class LoginPage {
 	public LoginPage(WebDriver driver) {
 		
 		this.driver = driver;
+		
 	}
 	
 	

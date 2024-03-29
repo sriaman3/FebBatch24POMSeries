@@ -7,15 +7,15 @@ import org.openqa.selenium.edge.EdgeOptions;
 
 public class OptionsManager {
 	
-	private Properties prop;
-	private ChromeOptions co;
-	private EdgeOptions eo;
+	private static Properties prop;
+	private static ChromeOptions co;
+	private static EdgeOptions eo;
 	
 	public OptionsManager(Properties prop) {
 		this.prop = prop;
 	}
 	
-	public ChromeOptions getChromeOptions() {
+	public static ChromeOptions getChromeOptions() {
 		co = new ChromeOptions();
 		if(Boolean.parseBoolean(prop.getProperty("headless").trim()))
 		co.addArguments("--headless");
@@ -26,7 +26,7 @@ public class OptionsManager {
 		return co;
 	}
 	
-	public EdgeOptions getEdgeOptions() {
+	public static EdgeOptions getEdgeOptions() {
 		eo = new EdgeOptions();
 		if(Boolean.parseBoolean(prop.getProperty("headless").trim()))
 		eo.addArguments("--headless");
